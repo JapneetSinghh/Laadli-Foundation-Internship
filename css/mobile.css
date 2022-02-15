@@ -1,0 +1,111 @@
+.flex-items{
+  flex-direction: column;
+}
+.program-images {
+  width: 95%;
+  margin: auto;
+}
+.section-2 nav {
+  display: none;
+}
+.container-program .col-2 {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* COL 3: Book now btn */
+.container-program .col-3 {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+}
+.container-program .col-1 {
+  padding: 20px;
+  width: 100%;
+  line-height: 2rem;
+}
+.flex-content-tab{
+  flex-direction: column;
+  padding: 20px;
+}
+.flex-content-tab-block-1{
+ width: 100%;
+}
+.flex-content-tab-block-2{
+ width: 100%;
+}
+.inclusions-exclusions .box{
+  width: 100%;
+}
+.border-right{
+  border-right:none;
+}
+.p6 .border-right{
+  border-right:none;
+}
+.p1 .border-right{
+  border-right:none;
+}
+.p2 .border-right{
+  border-right:none;
+}
+.p3 .border-right{
+  border-right:none;
+}
+.p4 .border-right{
+  border-right:none;
+}
+.content-sec-5{
+  width: 100%;
+}
+.icon-box-1 {
+  width: 100%;
+}
+.icon-box-1>div {
+  width: 100%;
+  display: flex;
+}
+
+.icon-box-2 {
+  width: 100%;
+}
+.program-short-content>div {
+  border-bottom: 1px solid var(--light-line-color-p5);
+  margin-left: 15px;
+  text-align: center;
+}
+.content-box-sec-5 img{
+  width: 40px;
+}
+.arrow {
+  width: 180px;
+  height: 20px;
+  margin: 5px;
+  margin-top: 30px;
+
+}
+
+/* ARROW  */
+.arrow-straight {
+  width: 50px;
+  height: 10px;
+  margin: 5px;
+  margin-left:0 ;
+  margin-right:0 ;
+  margin-top: 30px;
+}
+
+@media (max-width: 500px){
+  .content-box-sec-5 img{
+    width: 30px;
+  }
+  
+
+}
+@media (max-width: 370px){
+  .content-box-sec-5 img{
+    width: 25px;
+  }
+
+}
